@@ -1,0 +1,269 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNvT72fD6AKR2acbVLKL97j",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Visal-Se/Google-Collab/blob/main/Lesson%20-%20Fundamental%20of%20Coding(M.1)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Print statements"
+      ],
+      "metadata": {
+        "id": "rQwP6TBOFlX0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# print\n",
+        "print(\"                         Hello World!          \")\n",
+        "print(\"                            wassupp\")\n",
+        "print(\"             it's me Visal, learning how to code!\")\n",
+        "print(\"                              UwU             \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7ypP0T9XF8gU",
+        "outputId": "1ff435ce-a285-4283-e210-10ccc6201047"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                         Hello World!          \n",
+            "                            wassupp\n",
+            "             it's me Visal, learning how to code!\n",
+            "                              UwU             \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Comments"
+      ],
+      "metadata": {
+        "id": "xVkfk13EFutM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# this sentense in green color is called comment!\n",
+        "print(\":-0\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2Wf2no46I4zj",
+        "outputId": "8b61c29b-e71f-497e-fec8-c448bd204192"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            ":-0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Escape Sequences"
+      ],
+      "metadata": {
+        "id": "_gNVGuguF2rc"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# \\t\n",
+        "print(\"eat\\tyour\\tveggie\")\n",
+        "print(\"dammn\\tson\\tfkdjfkd\")\n",
+        "print(\"try\\tto\\tstudy more harder!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SKBHNaPRF7nJ",
+        "outputId": "975afb25-cb1a-45fe-bf33-18b6a301d9a0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "eat\tyour\tveggie\n",
+            "dammn\tson\tfkdjfkd\n",
+            "try\tto\tstudy more harder!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# \\\n",
+        "print(\"Mom said that \\\"you must go to bed now\\\"\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_U8H1XlGOIkr",
+        "outputId": "c5367ea7-bf16-4553-9b07-fa9ae4f262ef"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mom said that \"you must go to bed now\"\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# also \\\n",
+        "print('ARE\\'you kidding me right now?\\'')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "95jdYkzyOhDr",
+        "outputId": "cf881a8a-1400-4bfb-b845-c1f8b0fb78c8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ARE'you kidding me right now?'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# \\n\n",
+        "print(\"Visal\\nSe\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "viZ_BZzoO5db",
+        "outputId": "235b8470-c317-422d-eb30-d954b643156c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Visal\n",
+            "Se\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# always use double backslashes(\\\\) when to run one backslash on the screen!\n",
+        "print(\"    Would you rather eat cake\\\\chips?      \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8GlBhl2bPF-j",
+        "outputId": "2f37302f-b9d6-46f4-a58d-6b712c1ad0ad"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "    Would you rather eat cake\\chips?      \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Example: a double backslashes(on coding)=one backslash(on the screen)"
+      ],
+      "metadata": {
+        "id": "CSBJMJPVUvH8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Example of double backslashes=one backslash\n",
+        "print(\"\\\\\\\\.//   \\\\\\\\.//\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VPEbr72cTW2U",
+        "outputId": "95c2eef9-5d27-4d27-da03-b0f3ef705d6c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\\\\.//   \\\\.//\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
